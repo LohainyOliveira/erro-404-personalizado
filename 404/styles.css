@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat",sans-serif;
+    min-height: 100vh;
+    background-image: linear-gradient(125deg,#3700fff9,#fdcbd3);
+}
+
+.container{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #343434;
+}
+
+.container h1{
+    font-size: 260px;
+    margin: 0;
+    font-weight: 900;
+    letter-spacing: 20px;
+    
+    background: url("imagem/erro.jpg") center no-repeat;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
+
+.container a{
+    text-decoration: none;
+    background: #fafafaaa;
+    color: rgb(6, 6, 4);
+    padding: 12px 24px;
+    display: inline-block;
+    border-radius: 25px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: 0.4s;
+    
+    font-family: 'Comic Sans MS';
+}
+
+.container a:hover{
+    background: #3cfff8;
+}
+
+.container p{
+    font-family: 'Comic Sans MS';
+    font-size: 16px ;
+}
